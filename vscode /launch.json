@@ -13,7 +13,7 @@
             "program": "${workspaceFolder}/src/XivitaLauncher/bin/Debug/net7.0/XivitaLauncher.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/XivitaLauncher",
-            "//fifth_comment": "For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console"
+            "//fifth_comment": "For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console",
             "console": "internalConsole",
             "stopAtEntry": false
         },
