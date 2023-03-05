@@ -4,13 +4,13 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-dotnet@v1
+      - uses: actions/setup-dotnet@608ee757cfcce72c2e91e99aca128e0cae67de87 # v1
         with:
           dotnet-version: 7.0.x
-      - uses: github/super-linter@v4
+      - uses: github/super-linter@985ef206aaca4d560cb9ee2af2b42ba44adc1d55 # v4
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
